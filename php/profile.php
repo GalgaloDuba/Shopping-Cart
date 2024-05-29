@@ -33,14 +33,14 @@ $photo_url = $img['url'];
     <div id="photodiv">
         <img id="profileImg" src="./upload/<?php echo $photo_url; ?>" alt="">
     </div>
-    <form action="php/update.php" method="post" enctype="multipart/form-data">
+    <form action="update/update.php" method="post" enctype="multipart/form-data">
         <div id="filediv">
             <input id="fileInput" type="file" class="" name="fileToUpload" id="fileToUpload">
         </div>
         <div id="buttondiv">
             <button id="update" type="submit">Update</button>
         </form>
-        <form action="php/remove.php" method="post" enctype="multipart/form-data">
+        <form action="update/remove.php" method="post" enctype="multipart/form-data">
             <button id="remove">Remove</button>
         </form>
     </div>
