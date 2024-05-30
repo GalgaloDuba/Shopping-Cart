@@ -41,7 +41,7 @@ require 'check_if_added.php';
                         <center>
                             <div class="caption">
                                 <h3>Cannon EOS</h3>
-                                <p>Price: Rs. 36000.00</p>
+                                <p>Price: ETB 36000.00</p>
                                 <?php if (!isset($_SESSION['email'])) {  ?>
                                     <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                     <?php
@@ -68,7 +68,7 @@ require 'check_if_added.php';
                         <center>
                             <div class="caption">
                                 <h3>Sony DSLR</h3>
-                                <p>Price: Rs. 40000.00</p>
+                                <p>Price: ETB 40000.00</p>
                                 <?php if (!isset($_SESSION['email'])) {  ?>
                                     <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                     <?php
@@ -94,7 +94,7 @@ require 'check_if_added.php';
                         <center>
                             <div class="caption">
                                 <h3>Sony DSLR</h3>
-                                <p>Price: Rs. 50000.00</p>
+                                <p>Price: ETB 50000.00</p>
                                 <?php if (!isset($_SESSION['email'])) {  ?>
                                     <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                     <?php
@@ -120,7 +120,7 @@ require 'check_if_added.php';
                         <center>
                             <div class="caption">
                                 <h3>Olympus DSLR</h3>
-                                <p>Price: Rs. 80000.00</p>
+                                <p>Price: ETB 80000.00</p>
                                 <?php if (!isset($_SESSION['email'])) {  ?>
                                     <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                     <?php
@@ -148,7 +148,7 @@ require 'check_if_added.php';
                         <center>
                             <div class="caption">
                                 <h3>Titan Model #301</h3>
-                                <p>Price: Rs. 13000.00</p>
+                                <p>Price: ETB 13000.00</p>
                                 <?php if (!isset($_SESSION['email'])) {  ?>
                                     <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                     <?php
@@ -174,7 +174,7 @@ require 'check_if_added.php';
                         <center>
                             <div class="caption">
                                 <h3>Titan Model #201</h3>
-                                <p>Price: Rs. 3000.00</p>
+                                <p>Price: ETB 3000.00</p>
                                 <?php if (!isset($_SESSION['email'])) {  ?>
                                     <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                     <?php
@@ -200,7 +200,7 @@ require 'check_if_added.php';
                         <center>
                             <div class="caption">
                                 <h3>HMT Milan</h3>
-                                <p>Price: Rs. 8000.00</p>
+                                <p>Price: ETB 8000.00</p>
                                 <?php if (!isset($_SESSION['email'])) {  ?>
                                     <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                     <?php
@@ -226,7 +226,7 @@ require 'check_if_added.php';
                         <center>
                             <div class="caption">
                                 <h3>Favre Leuba #111</h3>
-                                <p>Price: Rs. 18000.00</p>
+                                <p>Price: ETB 18000.00</p>
                                 <?php if (!isset($_SESSION['email'])) {  ?>
                                     <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                     <?php
@@ -254,7 +254,7 @@ require 'check_if_added.php';
                         <center>
                             <div class="caption">
                                 <h3>Raymond</h3>
-                                <p>Price: Rs. 1500.00</p>
+                                <p>Price: ETB 1500.00</p>
                                 <?php if (!isset($_SESSION['email'])) {  ?>
                                     <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                     <?php
@@ -280,7 +280,7 @@ require 'check_if_added.php';
                         <center>
                             <div class="caption">
                                 <h3>Charles</h3>
-                                <p>Price: Rs. 1000.00</p>
+                                <p>Price: ETB 1000.00</p>
                                 <?php if (!isset($_SESSION['email'])) {  ?>
                                     <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                     <?php
@@ -306,7 +306,7 @@ require 'check_if_added.php';
                         <center>
                             <div class="caption">
                                 <h3>HXR</h3>
-                                <p>Price: Rs. 900.00</p>
+                                <p>Price: ETB  900.00</p>
                                 <?php if (!isset($_SESSION['email'])) {  ?>
                                     <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                     <?php
@@ -332,7 +332,7 @@ require 'check_if_added.php';
                         <center>
                             <div class="caption">
                                 <h3>PINK</h3>
-                                <p>Price: Rs. 1200.00</p>
+                                <p>Price: ETB 1200.00</p>
                                 <?php if (!isset($_SESSION['email'])) {  ?>
                                     <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                     <?php
