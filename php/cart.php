@@ -87,6 +87,6 @@ if ($no_of_user_products == 0) {
             </div>
         </footer>
     </div>
+    <script src="../js/AJAX.js"></script>
 </body>
-
 </html>

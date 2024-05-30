@@ -39,7 +39,7 @@ session_start();
             <div class="row">
                 <div class="col-xs-4">
                     <div class="thumbnail">
-                        <a href="products.php">
+                        <a href="php/products.php">
                             <img src="img/camera.jpg" alt="Camera">
                         </a>
                         <center>
@@ -52,7 +52,7 @@ session_start();
                 </div>
                 <div class="col-xs-4">
                     <div class="thumbnail">
-                        <a href="products.php">
+                        <a href="php/products.php">
                             <img src="img/watch.jpg" alt="Watch">
                         </a>
                         <center>
@@ -65,7 +65,7 @@ session_start();
                 </div>
                 <div class="col-xs-4">
                     <div class="thumbnail">
-                        <a href="products.php">
+                        <a href="php/products.php">
                             <img src="img/shirt.jpg" alt="Shirt">
                         </a>
                         <center>
