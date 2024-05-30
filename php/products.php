@@ -36,7 +36,7 @@ require 'check_if_added.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <a href="cart.php">
-                            <img src="img/cannon_eos.jpg" alt="Cannon">
+                            <img src="../img/cannon_eos.jpg" alt="Cannon">
                         </a>
                         <center>
                             <div class="caption">
@@ -63,7 +63,7 @@ require 'check_if_added.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <a href="cart.php">
-                            <img src="img/sony_dslr.jpeg" alt="Sony DSLR">
+                            <img src="../img/sony_dslr.jpeg" alt="Sony DSLR">
                         </a>
                         <center>
                             <div class="caption">
@@ -89,7 +89,7 @@ require 'check_if_added.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <a href="cart.php">
-                            <img src="img/sony_dslr2.jpeg" alt="Sony DSLR">
+                            <img src="../img/sony_dslr2.jpeg" alt="Sony DSLR">
                         </a>
                         <center>
                             <div class="caption">
@@ -115,7 +115,7 @@ require 'check_if_added.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <a href="cart.php">
-                            <img src="img/olympus.jpg" alt="Olympus">
+                            <img src="../img/olympus.jpg" alt="Olympus">
                         </a>
                         <center>
                             <div class="caption">
@@ -143,7 +143,7 @@ require 'check_if_added.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <a href="cart.php">
-                            <img src="img/titan301.jpg" alt="Titan 301">
+                            <img src="../img/titan301.jpg" alt="Titan 301">
                         </a>
                         <center>
                             <div class="caption">
@@ -169,7 +169,7 @@ require 'check_if_added.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <a href="cart.php">
-                            <img src="img/titan201.jpg" alt="Titan 201">
+                            <img src="../img/titan201.jpg" alt="Titan 201">
                         </a>
                         <center>
                             <div class="caption">
@@ -195,7 +195,7 @@ require 'check_if_added.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <a href="cart.php">
-                            <img src="img/hmt.JPG" alt="htm milan">
+                            <img src="../img/hmt.JPG" alt="htm milan">
                         </a>
                         <center>
                             <div class="caption">
@@ -221,7 +221,7 @@ require 'check_if_added.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <a href="cart.php">
-                            <img src="img/favreleuba.jpg" alt="Favre Leuba">
+                            <img src="../img/favreleuba.jpg" alt="Favre Leuba">
                         </a>
                         <center>
                             <div class="caption">
@@ -249,7 +249,7 @@ require 'check_if_added.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <a href="cart.php">
-                            <img src="img/raymond.jpg" alt="Raymond shirt">
+                            <img src="../img/raymond.jpg" alt="Raymond shirt">
                         </a>
                         <center>
                             <div class="caption">
@@ -275,7 +275,7 @@ require 'check_if_added.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <a href="cart.php">
-                            <img src="img/charles.jpg" alt="Charles shirt">
+                            <img src="../img/charles.jpg" alt="Charles shirt">
                         </a>
                         <center>
                             <div class="caption">
@@ -301,7 +301,7 @@ require 'check_if_added.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <a href="cart.php">
-                            <img src="img/HXR.jpg" alt="HXR">
+                            <img src="../img/HXR.jpg" alt="HXR">
                         </a>
                         <center>
                             <div class="caption">
@@ -327,7 +327,7 @@ require 'check_if_added.php';
                 <div class="col-md-3 col-sm-6">
                     <div class="thumbnail">
                         <a href="cart.php">
-                            <img src="img/pink.jpg" alt="PINK">
+                            <img src="../img/pink.jpg" alt="PINK">
                         </a>
                         <center>
                             <div class="caption">
