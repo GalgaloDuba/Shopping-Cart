@@ -22,7 +22,7 @@ session_start();
 <body>
     <div>
         <?php
-        require 'header.php';
+        require 'php/header.php';
         ?>
         <div id="bannerImage">
             <div class="container">
