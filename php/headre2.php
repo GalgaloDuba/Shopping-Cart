@@ -1,15 +1,5 @@
 <?php
-//     if (session_status() == PHP_SESSION_NONE) {
-//         session_start();
-//     }
-// error_reporting(0);
 include('connection.php');
-//$uid = $_SESSION['storeuid'];
-//this is for user name
-//   $sql = mysqli_query($conn, "SELECT name FROM users WHERE id = '$uid'");
-//   $result = mysqli_fetch_array($sql);
-//   $name = $result['name'];
-//this is for photo
 $photo = mysqli_query($conn, "SELECT url FROM user_img WHERE user_id = '$uid'");
 $img = mysqli_fetch_array($photo);
 $photo_url = $img['url'];
@@ -35,11 +25,11 @@ $photo_url = $img['url'];
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="./index.php" class="navbar-brand">Store</a>
+                <a href="../index.php" class="navbar-brand">Store</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- <? php // if (isset($_SESSION['email'])): 
+                    <!-- <?  // if (isset($_SESSION['email'])): 
                             ?>
                         <li class="inline"><a href="./cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
                         <li class="inline bsg">

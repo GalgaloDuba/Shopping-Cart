@@ -34,7 +34,7 @@ session_start();
                     <div id="bannerContent">
                         <h1>We sell .</h1>
                         <p>Flat 40% OFF on all premium brands.</p>
-                        <a href="products.php" class="btn btn-danger">Shop Now</a>
+                        <a href="php/products.php" class="btn btn-danger">Shop Now</a>
                     </div>
                 </center>
             </div>
