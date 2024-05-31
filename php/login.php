@@ -35,7 +35,7 @@ session_start();
                         </div>
                         <div class="panel-body">
                             <p>Login to make a purchase.</p>
-                            <form method="post" id="login" action="login_submit.php">
+                            <form method="post" id="login" action="./login_submited.php">
                                 <div class="form-group">
                                     <input type="email" class="form-control" value="<?php if (isset($_COOKIE["user"])) {
                                                                                         echo $_COOKIE["user"];
