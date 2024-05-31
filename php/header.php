@@ -2,7 +2,7 @@
 // session_start();
 // error_reporting(0);
 include('./connection.php');
-$uid = $_SESSION['storeuid'];
+// $uid = $_SESSION['storeuid'];
 //this is for user name
 //   $sql = mysqli_query($conn, "SELECT name FROM users WHERE id = '$uid'");
 //   $result = mysqli_fetch_array($sql);

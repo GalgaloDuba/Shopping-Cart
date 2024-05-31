@@ -74,7 +74,7 @@ if ($no_of_user_products == 0) {
                         <th></th>
                         <th>Total</th>
                         <th>ETB <?php echo $sum; ?>/-</th>
-                        <th><a href="../php/success.php?id=<?php echo $user_id ?>" class="btn btn-primary">Confirm Order</a></th>
+                        <th><a href="./checkout.php?php echo $user_id ?>" class="btn btn-primary">Confirm Order</a></th>
                     </tr>
                 </tbody>
             </table>
