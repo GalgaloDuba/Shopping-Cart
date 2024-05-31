@@ -83,7 +83,7 @@ if (isset($_POST['btn'])) {
 
             <h1 class="heading">complete your order</h1>
 
-            <form action="" method="post">
+            <form action="../php/success.php" data-id="<?php echo $user_id ?>" method="post">
 
 
                 <div class="flex">
@@ -92,8 +92,8 @@ if (isset($_POST['btn'])) {
                         <input type="text" placeholder="enter your name" name="name" required>
                     </div>
                     <div class="inputBox">
-                        <span>your number</span>
-                        <input type="number" placeholder="enter your number" name="number" required>
+                        <span>your phone number</span>
+                        <input type="tel" placeholder="enter your number" name="number" required>
                     </div>
                     <div class="inputBox">
                         <span>your email</span>
