@@ -82,8 +82,7 @@ if ($no_of_user_products == 0) {
         <br><br><br><br><br><br><br><br><br><br>
         <footer class="footer">
             <div class="container">
-                <center>
-                </center>
+
             </div>
         </footer>
     </div>

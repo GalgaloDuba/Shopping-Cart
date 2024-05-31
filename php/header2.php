@@ -29,30 +29,12 @@ $photo_url = $img['url'];
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- <?  // if (isset($_SESSION['email'])): 
-                            ?>
-                        <li class="inline"><a href="./cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
-                        <li class="inline bsg">
-                            <img id="user_image" src="./upload/<?php echo $photo_url ?>" alt="">
-                        </li>
-                        <li class="dropdown">
-                            <button class="dropbtn" style="font-weight:bold;">
-                                <?php //echo 'HELLO'
-                                ?>
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#"></a>
-                                <a href="./php/profile.php">Update profile</a>
-                                <a href="./php/settings.php">Settings</a>
-                                <a href="./php/logout.php">Logout</a>
-                            </div>
-                        </li>
-                    <?php //else: 
-                    ?> -->
+
+                    <?php
+                    ?>
                     <li><a href="./signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                     <li><a href="./login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    <?php //endif; 
+                    <?php
                     ?>
                 </ul>
             </div>

@@ -1,13 +1,5 @@
 <?php
-// session_start();
-// error_reporting(0);
 include('./connection.php');
-// $uid = $_SESSION['storeuid'];
-//this is for user name
-//   $sql = mysqli_query($conn, "SELECT name FROM users WHERE id = '$uid'");
-//   $result = mysqli_fetch_array($sql);
-//   $name = $result['name'];
-//this is for photo
 $photo = mysqli_query($conn, "SELECT url FROM user_img WHERE user_id = '$uid'");
 $img = mysqli_fetch_array($photo);
 $photo_url = $img['url'];

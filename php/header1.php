@@ -1,18 +1,5 @@
 <?php
-//     if (session_status() == PHP_SESSION_NONE) {
-//         session_start();
-//     }
-// error_reporting(0);
 include('connection.php');
-//$uid = $_SESSION['storeuid'];
-//this is for user name
-//   $sql = mysqli_query($conn, "SELECT name FROM users WHERE id = '$uid'");
-//   $result = mysqli_fetch_array($sql);
-//   $name = $result['name'];
-//this is for photo
-$photo = mysqli_query($conn, "SELECT url FROM user_img WHERE user_id = '$uid'");
-$img = mysqli_fetch_array($photo);
-// $photo_url = $img['url'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,30 +25,11 @@ $img = mysqli_fetch_array($photo);
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- <?  // if (isset($_SESSION['email'])): 
-                            ?>
-                        <li class="inline"><a href="./cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
-                        <li class="inline bsg">
-                            <img id="user_image" src="./upload/<?php echo $photo_url ?>" alt="">
-                        </li>
-                        <li class="dropdown">
-                            <button class="dropbtn" style="font-weight:bold;">
-                                <?php //echo 'HELLO'
-                                ?>
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#"></a>
-                                <a href="./php/profile.php">Update profile</a>
-                                <a href="./php/settings.php">Settings</a>
-                                <a href="./php/logout.php">Logout</a>
-                            </div>
-                        </li>
-                    <?php //else: 
-                    ?> -->
+                    <?php
+                    ?>
                     <li><a href="./php/signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                     <li><a href="./php/login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                    <?php //endif; 
+                    <?php
                     ?>
                 </ul>
             </div>
