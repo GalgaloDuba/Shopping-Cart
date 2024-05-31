@@ -24,7 +24,7 @@ if ($row['password'] == $old_password) {
     <script>
         window.alert("Wrong password!!");
     </script>
-    <meta http-equiv="refresh" content="1;url=settings.php" />
+    <meta http-equiv="refresh" content="1;url=setting.php" />
 <?php
     //header('location:settings.php');
 }
