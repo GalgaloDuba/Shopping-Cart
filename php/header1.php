@@ -12,8 +12,7 @@ include('connection.php');
 //this is for photo
 $photo = mysqli_query($conn, "SELECT url FROM user_img WHERE user_id = '$uid'");
 $img = mysqli_fetch_array($photo);
-$photo_url = $img['url'];
-
+// $photo_url = $img['url'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -39,7 +38,7 @@ $photo_url = $img['url'];
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- <? php // if (isset($_SESSION['email'])): 
+                    <!-- <?  // if (isset($_SESSION['email'])): 
                             ?>
                         <li class="inline"><a href="./cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
                         <li class="inline bsg">

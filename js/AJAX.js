@@ -6,7 +6,7 @@ $(document).ready(function() {
         let itemId = $(this).data('id');
         
         $.ajax({
-            url: 'cart_remove.php',
+            url: '../php/cart_remove.php',
             type: 'GET',
             data: {id: itemId},
             success: function(response) {

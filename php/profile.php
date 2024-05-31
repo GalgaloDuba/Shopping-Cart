@@ -3,7 +3,7 @@ session_start();
 error_reporting(0);
 include('connection.php');
 
-if (!isset($_SESSION['storeuid'])==0) {
+if (!isset($_SESSION['storeuid']) == 0) {
     header("location: logout.php");
     exit; // Exit to prevent further execution
 }
@@ -21,13 +21,15 @@ $photo_url = $img['url'];
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="../css/profile.css">
 </head>
+
 <body>
     <?php include("header.php"); ?>
     <div id="photodiv">
@@ -39,10 +41,10 @@ $photo_url = $img['url'];
         </div>
         <div id="buttondiv">
             <button id="update" type="submit">Update</button>
-        </form>
-        <form action="update/remove.php" method="post" enctype="multipart/form-data">
-            <button id="remove">Remove</button>
-        </form>
+    </form>
+    <form action="update/remove.php" method="post" enctype="multipart/form-data">
+        <button id="remove">Remove</button>
+    </form>
     </div>
     <!-- Other HTML content -->
     <script>
@@ -51,4 +53,5 @@ $photo_url = $img['url'];
         }
     </script>
 </body>
+
 </html>
