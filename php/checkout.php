@@ -72,8 +72,10 @@ if (isset($_POST['btn'])) {
 </head>
 
 <body>
-
-    <?php include 'header.php'; ?>
+    <?php
+    session_start()
+    ?>
+    <?php require 'header.php'; ?>
 
     <div class="container">
 

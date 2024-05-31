@@ -49,7 +49,7 @@ $photo_url = $img['url'];
                             <div class="dropdown-content">
                                 <a href="#"></a>
                                 <a href="../php/profile.php">Update profile</a>
-                                <a href="../php/settings.php">Settings</a>
+                                <a href="../php/setting.php">Settings</a>
                                 <a href="../php/logout.php">Logout</a>
                             </div>
                         </li>

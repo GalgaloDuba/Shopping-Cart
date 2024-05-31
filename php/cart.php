@@ -66,7 +66,7 @@ if ($no_of_user_products == 0) {
                             <th><?php echo $counter ?></th>
                             <th><?php echo $row['name'] ?></th>
                             <th><?php echo $row['price'] ?></th>
-                            <th><a href='../php/cart_remove.php?id=<?php echo $row['id'] ?>'>Remove</a></th>
+                            <th><a href="../php/cart_remove.php" class="remove-from-cart" data-id="<?php echo $row['id'] ?>">Remove</a></th>
                         </tr>
                     <?php $counter = $counter + 1;
                     } ?>
